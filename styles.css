@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1F2937;
+    height: 420px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    /* padding: 0 20px; */
+}
+
+.logo {
+    padding: 0 20px;
+}
+
+nav {
+    /* margin-top: 10px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+}
+
+#nav__list {
+    /* width: 180px; */
+    display: flex;
+    
+}
+
+#nav__list li {
+    padding: 10px 20px;
+    list-style-type: none;
+    /* color: white; */
+}
+
+.second__box {
+   
+    margin: 40px auto;
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+    /* background-color: orange; */
+    align-items: center;
+}
+
+#cowboy__box {
+    width: 100%;
+    border-radius: 20px;
+}
+
+#first__box {
+    display: flex;
+    flex-direction: column;;
+    justify-content: center;
+    align-items: center;
+}
+
+.second__box  > div {
+    width: 40%;
+    height: 80%;
+    /* background-color: pink; */
+}
+
+#second__p {
+    font-size: 12px;
+}
+
+#main__button {
+    margin-top: 8px;
+    width: 80px;
+    height: 30px;
+    background-color: #3882f6;
+    color: white;
+    border-radius: 10px;
+
+}
+
+
+
+/* SECOND AREA */
+
+#second__area {
+    display: flex;
+    width: 100%;
+    heighT: 360PX;
+    flex-direction: column;
+    /* background-color: green; */
+    align-items: center;
+    padding-top: 40px;
+}
+
+#second__area > div > h2 {
+    color: white;
+    margin-bottom: 40px;
+}
+
+#second__area-div {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+}
+
+#third__area-div {
+    width: 100%;
+    display: flex;
+    margin: 8px;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.inside {
+    width: 72px;
+    height: 80px;
+    border: 1px solid #3882f6;
+    margin: 0 40px;
+    border-radius: 8px;
+}
+
+.third_inside {
+    width: 72px;
+    height: 80px;
+    /* border: 1px solid pink; */
+    margin: 0 40px;
+    border-radius: 8px;
+    text-align: center;
+    color: black;
+}
+
+
+/* FOURTH AREA */
+
+#fourth__area-div {
+    width: 100%;
+    height: 360px;
+    background-color: #E5E7EB;
+}
